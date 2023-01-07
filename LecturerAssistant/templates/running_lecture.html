@@ -1,0 +1,50 @@
+{%extends "base.html"%}
+
+{%block content%}
+
+    <h3>Your room code is {{ code }}. Send this to your students</h3>
+
+<table>
+     {%for id, question, status in polls%}
+        <tr>
+            <th>
+            {{question}}
+            </th>
+            <td>
+
+                <form action="/user/sendpoll/{{id}}" method="POST">
+                    {%if status%}
+                    <p><input type="submit" value="Post  poll"></p>
+                    {% else %}
+                    <p><input type="submit" value="Post  poll" disabled></p>
+                    {% endif %}
+
+                </form>
+            </td>
+            <td>
+                <form action="/user/endpoll/{{id}}" method="POST">
+                    {%if status%}
+                    <p><input type="submit" value="Close  poll" disabled></p>
+                    {% else %}
+                    <p><input type="submit" value="Close  poll"></p>
+                    {% endif %}
+                </form>
+            </td>
+        </tr>
+
+     {%endfor%}
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+{%endblock%}

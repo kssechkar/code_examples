@@ -1,0 +1,16 @@
+pyTelegramBotApi
+
+Werkzeug~=2.2.2
+alembic~=1.8.1
+SQLAlchemy~=1.4.44
+pandas~=1.5.2
+WTForms~=3.0.1
+plotly~=5.11.0
+kaleido
+
+Flask~=2.2.2
+flask_sqlalchemy
+flask_login
+flask_wtf
+flask-script
+flask-migrate
