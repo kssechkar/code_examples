@@ -1,1 +1,1 @@
-# These are my code examples. Each branch represent a small project with a brief description and code
+# This is a notebook from a Machine Learning mini-course, containing a model for recognizing faces
