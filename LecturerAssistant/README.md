@@ -1,14 +1,10 @@
 # Lecturer Assistant
 
-Утилита (сайт и телеграм бот) для продуктивного взаимодействия преподавателя с аудиторией во время занятия. 
+Utility (website and telegram bot) for productive interaction between the teacher and the audience during the lesson. 
 
-Итоговый проект для курса "Углубленный Python" ПМИ ФКН НИУ ВШЭ, 2022. 
+[Presentation](https://github.com/vvauijij/LecturerAssistant/blob/develop/Lecturer%20Assistant.pdf)
 
-Авторы: [Пеньков Алексей](https://github.com/vvauijij), [Сечкарь Константин](https://github.com/kssechkar), [Оникова Даша](https://github.com/myramystin). 
-
-[Презентация](https://github.com/vvauijij/LecturerAssistant/blob/develop/Lecturer%20Assistant.pdf)
-
-[Шаблоны опросов](https://github.com/vvauijij/LecturerAssistant/tree/develop/csv_templates)
+[Polls samples](https://github.com/vvauijij/LecturerAssistant/tree/develop/csv_templates)
 
 
 ## Usage
