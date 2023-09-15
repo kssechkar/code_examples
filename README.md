@@ -1,1 +1,1 @@
-# These are my code examples. Each branch represent a small project with a brief description and code
+# First experience with IOS development as a course project during my second year at HSE Apllied Math and Computer Science. This is an app for mixing, which uses Spatial Audio for pre-cuing and has automatic bpm sync and pitch pync(further in docs/report - the document is in Russian language).
